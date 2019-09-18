@@ -11,6 +11,9 @@
 **Inventory** <span class='md'><b class='pk'>ItemNumber</b>, Itemdescription, CurrentSalePrice<b class='rg'>Date,SupplierNumber,PONumber, Quantity,Cost</b> Instockcount, ReorderValue  </sapn>
 
 ### 1NF
+**Inventory** <span class='md'><b class='pk'>ItemNumber</b>, Itemdescription, CurrentSalePrice<b class='rg'>Date,SupplierNumber,PONumber, Quantity,Cost</b> Instockcount, ReorderValue  </sapn>
+**OrderHistory** <span class='md'><b class='pk'><i class='fk'>ItemNumber</i>,PONumber</b>,Date,supplierName,Quantity,Cost</span>
+
 
 ### 2NF
 
