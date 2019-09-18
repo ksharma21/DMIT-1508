@@ -12,12 +12,16 @@
 
 ### 1NF
 **Inventory** <span class='md'><b class='pk'>ItemNumber</b>, Itemdescription, CurrentSalePrice<b class='rg'>Date,SupplierNumber,PONumber, Quantity,Cost</b> Instockcount, ReorderValue  </sapn>
-**OrderHistory** <span class='md'><b class='pk'><i class='fk'>ItemNumber</i>,PONumber</b>,Date,supplierName,Quantity,Cost</span>
+**OrderHistory** <span class='md'><b class='pk'><i class='fk'>ItemNumber</i>,PONumber</b>,Quantity,Cost</span>
 
 
 ### 2NF
+**OrderHistory** <span class='md'><b class='pk'><i class='fk'>ItemNumber</i>,PONumber</b>,Date,supplierName,Quantity,Cost</span>
+**PurchaseOrder**<span calss='md'><b class='pk'>PONumber</b>, Date, SupplierNumber</span>
+
 
 ### 3NF
+> No Changes
 
 ### Final Tables
 
